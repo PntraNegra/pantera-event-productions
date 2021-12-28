@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, .card-body>.card-title {
+  font-family: sans-serif, cursive;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.site-footer {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 10px;
+  background-color: #000000;
+}
+.jumbotron h1 {
+  color: white;
+}
+.jumbotron h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  background-color: #f3f3eb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.month {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border: solid 1px black;
+}
+
+.day {
+  text-align: right;
+  font-weight: bold;
+}
+
+.calendar {
+  block-size: 50px;
+  border: solid 1px black;
+  font-size: 10px;
+}
+
+.calendar-days {
+  border:solid 1px black;
+  font-size: 8px;
+}
+
+.pic{
+  width: 100px;
+  margin: 20px;
+}
+
+.review-card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.review-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.merch {
+  width: 150px;
+}
+
+.card-shop {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+.card {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 600px){
+  .month {
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .day {
+      text-align: right;
+      font-weight: bold;
+  }
+  
+  .calendar {
+      block-size: 120px;
+      border:solid 1px black;
+      font-size: 15px;
+  }
+
+  .calendar-days {
+      border:solid 1px black;
+      font-size: 15px;
+  }
+
+  .pic{
+      width: 200px;
+      margin: 20px;
+  }
+
+  .merch {
+      width: 250px;
   }
 }
