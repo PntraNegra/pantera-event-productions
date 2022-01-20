@@ -22,22 +22,9 @@ class Header extends Component{
     render(){
         return(
             <React.Fragment>
-                <Jumbotron fluid>
+                <Navbar className="mb-4" dark sticky="top" expand="md">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-sm-5">
-                                <img src="/img/logoGold.png" width="75" alt="Logo" />
-                            </div>
-                            <div className="col">
-                                <h1>PANTERA</h1>
-                                <h2 className="d-sm-block d-none">EVENT PRODUCTIONS</h2>
-                            </div>
-                        </div>
-                    </div>
-                </Jumbotron>
-                <Navbar className="mb-4" light sticky="top" expand="md">
-                    <div className="container">
-                        <NavbarBrand className="mr-auto"></NavbarBrand>
+                        <NavbarBrand className="mr-auto"><img src="/img/logoGold.png" width="30" alt="Logo" />Pantera</NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
