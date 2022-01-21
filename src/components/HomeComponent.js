@@ -11,10 +11,10 @@ function Home(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h2>Pantera Event Productions</h2>
+                        <h1>Pantera Event Productions</h1>
                     </div>
                     <div className="col-12 text-center">
-                        <h4>Professional Services for Gatherings, Parties and More</h4>
+                        <h3>Professional Services for Gatherings, Parties and More</h3>
                     </div>
                 </div>    
                 <div className="row">
