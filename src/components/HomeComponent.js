@@ -1,5 +1,4 @@
 import React from 'react';
-import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import DJCarousel from './CarouselComponent';
 import PanteraCalendar from './CalendarComponent';
@@ -8,7 +7,7 @@ import PanteraCalendar from './CalendarComponent';
 function Home(props) {
     return (
         <React.Fragment>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1>Pantera Event Productions</h1>

@@ -59,19 +59,27 @@ class Header extends Component{
                                     </DropdownToggle>
                                     <DropdownMenu right>
                                         <DropdownItem>
-                                            DJ
+                                            <NavLink to="/dj">
+                                                DJ
+                                            </NavLink>
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem>
-                                            Graphic Design
+                                            <NavLink to="/graphicDesign">
+                                                Graphic Design
+                                            </NavLink>
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem>
-                                            Videography
+                                            <NavLink to="/video">
+                                                Videography
+                                            </NavLink>
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem>
-                                            Sound & Lighting
+                                            <NavLink to="/soundLight">
+                                                Sound & Lighting
+                                            </NavLink>
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>

@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Contact from './ContactComponent';
+import Reviews from './ReviewsComponent';
+import About from './AboutComponent';
+import Shop from './ShopComponent';
+import SoundLight from './SoundandLighting';
+import Dj from './DjComponent';
+import GraphicDesign from './GraphicDesignComponent';
+import Video from './VideographComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {
@@ -23,6 +31,14 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' component= {HomePage} />
+                    <Route path='/contact' component= {Contact} />
+                    <Route path='/reviews' component= {Reviews} />
+                    <Route path='/about' component= {About} />
+                    <Route path='/shop' component= {Shop} />
+                    <Route path='/soundLight' component= {SoundLight} />
+                    <Route path='/dj' component= {Dj} />
+                    <Route path='/graphicDesign' component= {GraphicDesign} />
+                    <Route path='/video' component= {Video} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
