@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle    } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component{
@@ -53,17 +53,28 @@ class Header extends Component{
                                         <i className="fa fa-shopping-cart fa-lg" /> Shop
                                     </NavLink>
                                 </NavItem>
-                                <NavItem className="dropdown">
-                                    <NavLink className="nav-link dropdown-toggle" to="#dropDown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                                        <i className="fa fa-list fa-lg" /> Services
-                                    </NavLink>
-                                    <NavItem className="dropdown-menu" aria-labelledby="navbarDropdown" id="dropDown">
-                                        <NavLink className="dropdown-item" to="/dj"> Dj</NavLink>
-                                        <NavLink className="dropdown-item" to="/graphicdesign"> Graphic Design</NavLink>
-                                        <NavLink className="dropdown-item" to="/videography"> Videography</NavLink>
-                                        <NavLink className="dropdown-item" to="/soundlighting"> Sound-and-Lighting</NavLink>
-                                    </NavItem>
-                                </NavItem>
+                                <UncontrolledDropdown nav inNavbar>
+                                    <DropdownToggle nav caret>
+                                        Services
+                                    </DropdownToggle>
+                                    <DropdownMenu right>
+                                        <DropdownItem>
+                                            DJ
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            Graphic Design
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            Videography
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            Sound & Lighting
+                                        </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
                             </Nav>
                         </Collapse>
                     </div>
