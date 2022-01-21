@@ -34,3 +34,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.no-pad {
+  padding: 0px !important;
+}

@@ -64,7 +64,7 @@ function DJCarousel() {
 
     return (
         <div style={{
-            display: 'block', padding: 30
+            display: 'block', padding: 0
         }}>
             <Carousel previous={previousButton} next={nextButton} 
                 activeIndex={activeIndex}>
