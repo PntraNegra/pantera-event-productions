@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
 import 'react-calendar/dist/Calendar.css';
 import DJCarousel from './CarouselComponent';
 import PanteraCalendar from './CalendarComponent';
@@ -15,29 +16,138 @@ function Home(props) {
                     <div className="col-12 text-center">
                         <h3>Professional Services for Gatherings, Parties and More</h3>
                     </div>
-                </div>    
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-6 mt-1 mb-1">
+                    <a href="/dj" className="text-dark">
+                        <Card>
+                            <CardImg
+                            alt="Card image cap"
+                            src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                            top
+                            width="100%"
+                            />
+                            <CardBody>
+                                <CardTitle tag="h5">
+                                    DJ Services
+                                </CardTitle>
+                                <CardText>
+                                    Professional DJ services for weddings, graduations, parties and more!
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </a>
+                    </div>
+                    <div className="col-sm-6 mt-1 mb-1">
+                        <a href="/graphicDesign" className="text-dark">
+                            <Card>
+                                <CardImg
+                                alt="Card image cap"
+                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                top
+                                width="100%"
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5">
+                                        Graphic Design
+                                    </CardTitle>
+                                    <CardText>
+                                        Professional Graphic Designers to create beautiful designs and graphics guaranteed to capture attention!
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-6 mt-1 mb-1">
+                        <a href="/video" className="text-dark">
+                            <Card>
+                                <CardImg
+                                alt="Card image cap"
+                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                top
+                                width="100%"
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5">
+                                        Videography
+                                    </CardTitle>
+                                    <CardText>
+                                        Professional video recorders ready for take 1.
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+                    <div className="col-sm-6 mt-1 mb-1">
+                        <a href="/photo" className="text-dark">
+                            <Card>
+                                <CardImg
+                                alt="Card image cap"
+                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                top
+                                width="100%"
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5">
+                                        Photography
+                                    </CardTitle>
+                                    <CardText>
+                                        Professional photographers ready to capture those memorable moments that last a lifetime.
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+                </div>
+                <div className="row">
+                <div className="col-sm-6 mt-1 mb-1">
+                        <a href="/soundLight" className="text-dark">
+                            <Card>
+                                <CardImg
+                                alt="Card image cap"
+                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                top
+                                width="100%"
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5">
+                                        Sound &amp; Lighting
+                                    </CardTitle>
+                                    <CardText>
+                                        Professional grade sound and lighting equipment at your disposal.
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+                </div>
+
                 <div className="row bg-dark no-pad mt-3 mb-3">
                     <div className="col-sm-6 no-pad">
                         <DJCarousel />
                     </div>
                     <div className="col-sm-6 mt-lg-5 mt-md-3">
-                        <h1 className="text-light d-lg-block d-none">"Pantera helped make my wedding night memorable."</h1>
-                        <h3 className="text-light d-sm-block d-none d-lg-none">"Pantera helped make my wedding night memorable."</h3>
-                        <h1 className="text-light mt-3 d-sm-none">"Pantera helped make my wedding night memorable."</h1>
+                        <h1 className="text-light d-lg-block d-none object-align-center">"Pantera helped make my wedding night memorable."</h1>
+                        <h3 className="text-light d-sm-block d-none d-lg-none object-align-center">"Pantera helped make my wedding night memorable."</h3>
+                        <h1 className="text-light mt-3 d-sm-none object-align-center">"Pantera helped make my wedding night memorable."</h1>
                     </div>
                 </div>
 
-                <h2 className="text-center">Check for availability</h2>
-                <div className="row m-3">
+                <h1 className="text-center m-4">Check For Your Date</h1>
+                <div className="row bg-dark mt-3 mb-3">
                     <div className="col-md-6">
-                        <h3 className="text-center mt-md-5 mb-md-5">
-                            Are We Available?
+                        <h3 className="text-center text-light mt-md-5 mb-md-5 pt-3">
+                            Are We available?
                         </h3>
-                        <h4 className="text-center mt-md-5 mb-md-5">
-                            Click on date to see services we have available.
+                        <h4 className="text-center text-light mt-md-5 mb-md-5">
+                            Click on date to see the services we have available.
                         </h4>
                     </div>
-                    <div className="col-md-6 calendar-component">
+                    <div className="no-pad col-md-6 calendar-component">
                         <PanteraCalendar />
                     </div>
                 </div>

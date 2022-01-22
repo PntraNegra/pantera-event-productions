@@ -10,6 +10,7 @@ import SoundLight from './SoundandLighting';
 import Dj from './DjComponent';
 import GraphicDesign from './GraphicDesignComponent';
 import Video from './VideographComponent';
+import Photo from './PhotoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {
@@ -39,6 +40,7 @@ class Main extends Component {
                     <Route path='/dj' component= {Dj} />
                     <Route path='/graphicDesign' component= {GraphicDesign} />
                     <Route path='/video' component= {Video} />
+                    <Route path='/photo' component= {Photo} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

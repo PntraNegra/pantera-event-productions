@@ -24,7 +24,7 @@ class Header extends Component{
             <React.Fragment>
                 <Navbar className="mb-4" dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto"><img src="/img/logoGold.png" width="30" alt="Logo" />Pantera</NavbarBrand>
+                        <NavbarBrand className="mr-auto"><a href="/home"><img src="/img/logoGold.png" width="30" alt="Logo" /></a>Pantera</NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
@@ -60,13 +60,19 @@ class Header extends Component{
                                     <DropdownMenu right>
                                         <DropdownItem>
                                             <NavLink to="/dj">
-                                                DJ
+                                                DJ Services
                                             </NavLink>
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem>
                                             <NavLink to="/graphicDesign">
                                                 Graphic Design
+                                            </NavLink>
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            <NavLink to="/photo">
+                                                Photography
                                             </NavLink>
                                         </DropdownItem>
                                         <DropdownItem divider />
@@ -78,7 +84,7 @@ class Header extends Component{
                                         <DropdownItem divider />
                                         <DropdownItem>
                                             <NavLink to="/soundLight">
-                                                Sound & Lighting
+                                                Sound &amp; Lighting
                                             </NavLink>
                                         </DropdownItem>
                                     </DropdownMenu>
