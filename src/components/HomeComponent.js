@@ -23,7 +23,7 @@ function Home(props) {
                     <a href="/dj" className="text-dark">
                         <Card>
                             <CardImg
-                            alt="Card image cap"
+                            alt="DJ Services Picture"
                             src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
                             top
                             width="100%"
@@ -43,7 +43,7 @@ function Home(props) {
                         <a href="/graphicDesign" className="text-dark">
                             <Card>
                                 <CardImg
-                                alt="Card image cap"
+                                alt="Graphic Design Services Image"
                                 src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
                                 top
                                 width="100%"
@@ -66,7 +66,7 @@ function Home(props) {
                         <a href="/video" className="text-dark">
                             <Card>
                                 <CardImg
-                                alt="Card image cap"
+                                alt="Video Services Image"
                                 src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
                                 top
                                 width="100%"
@@ -76,7 +76,7 @@ function Home(props) {
                                         Videography
                                     </CardTitle>
                                     <CardText>
-                                        Professional video recorders ready for take 1.
+                                        Hire our experienced video producers, on set, ready for take 1. They create scenes that lasts a life time.
                                     </CardText>
                                 </CardBody>
                             </Card>
@@ -86,7 +86,7 @@ function Home(props) {
                         <a href="/photo" className="text-dark">
                             <Card>
                                 <CardImg
-                                alt="Card image cap"
+                                alt="Photography Services Image"
                                 src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
                                 top
                                 width="100%"
@@ -104,11 +104,11 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="row">
-                <div className="col-sm-6 mt-1 mb-1">
+                    <div className="col-sm-6 mt-1 mb-1">
                         <a href="/soundLight" className="text-dark">
                             <Card>
                                 <CardImg
-                                alt="Card image cap"
+                                alt="Sound and Lighting Services Image"
                                 src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
                                 top
                                 width="100%"
@@ -119,6 +119,26 @@ function Home(props) {
                                     </CardTitle>
                                     <CardText>
                                         Professional grade sound and lighting equipment at your disposal.
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+                    <div className="col-sm-6 mt-1 mb-1">
+                        <a href="/reviews" className="text-dark">
+                            <Card>
+                                <CardImg
+                                alt="Reviews services image"
+                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                top
+                                width="100%"
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5">
+                                        Reviews
+                                    </CardTitle>
+                                    <CardText>
+                                        See what others are saying about the Pantera Event Production experience!
                                     </CardText>
                                 </CardBody>
                             </Card>
