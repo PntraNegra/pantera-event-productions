@@ -44,7 +44,7 @@ function Home(props) {
                             <Card>
                                 <CardImg
                                 alt="Graphic Design Services Image"
-                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                src="/img/graphicDesign.jpg"
                                 top
                                 width="100%"
                                 />
@@ -67,7 +67,7 @@ function Home(props) {
                             <Card>
                                 <CardImg
                                 alt="Video Services Image"
-                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                src="/img/video.jpg"
                                 top
                                 width="100%"
                                 />
@@ -87,7 +87,7 @@ function Home(props) {
                             <Card>
                                 <CardImg
                                 alt="Photography Services Image"
-                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                src="/img/photographer.jpg"
                                 top
                                 width="100%"
                                 />
@@ -109,7 +109,7 @@ function Home(props) {
                             <Card>
                                 <CardImg
                                 alt="Sound and Lighting Services Image"
-                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                src="/img/soundandlighting.jpg"
                                 top
                                 width="100%"
                                 />
@@ -129,7 +129,7 @@ function Home(props) {
                             <Card>
                                 <CardImg
                                 alt="Reviews services image"
-                                src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                                src="/img/reviews.jpg"
                                 top
                                 width="100%"
                                 />
@@ -154,17 +154,18 @@ function Home(props) {
                         <h1 className="text-light d-lg-block d-none object-align-center">"Pantera helped make my wedding night memorable."</h1>
                         <h3 className="text-light d-sm-block d-none d-lg-none object-align-center">"Pantera helped make my wedding night memorable."</h3>
                         <h1 className="text-light mt-3 d-sm-none object-align-center">"Pantera helped make my wedding night memorable."</h1>
+                        <h5 className="text-light">- an anonymous client</h5>
                     </div>
                 </div>
 
                 <h1 className="text-center m-4">Check For Your Date</h1>
                 <div className="row bg-dark mt-3 mb-3">
                     <div className="col-md-6">
-                        <h3 className="text-center text-light mt-md-5 mb-md-5 pt-3">
+                        <h3 className="text-center text-light mt-md-3 mb-md-3 pt-3">
                             Are We available?
                         </h3>
-                        <h4 className="text-center text-light mt-md-5 mb-md-5">
-                            Click on date to see the services we have available.
+                        <h4 className="text-center text-light mt-md-3 mb-md-3">
+                            Click on a date to see the services we have available.
                         </h4>
                     </div>
                     <div className="no-pad col-md-6 calendar-component">

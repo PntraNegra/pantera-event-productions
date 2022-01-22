@@ -36,9 +36,14 @@ h2 {
 }
 
 .no-pad {
-  padding: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .object-align-center {
   vertical-align: middle !important;
+}
+
+.no-marg {
+  margin: 0px;
 }
