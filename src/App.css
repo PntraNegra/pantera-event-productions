@@ -42,8 +42,21 @@ h2 {
 
 .object-align-center {
   vertical-align: middle !important;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .no-marg {
   margin: 0px;
+}
+
+.pic{
+  width: 100%;
+  border-radius: 25px 0 25px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .pic{
+    border-radius: 50px 0 50px 0;
+  }
 }

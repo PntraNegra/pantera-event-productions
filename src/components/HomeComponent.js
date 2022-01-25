@@ -146,7 +146,7 @@ function Home(props) {
                     </div>
                 </div>
 
-                <div className="row bg-dark no-pad mt-3 mb-3">
+                <div className="row bg-dark no-pad mt-3 mb-3 gradient-sm">
                     <div className="col-sm-6 no-pad">
                         <DJCarousel />
                     </div>
@@ -159,12 +159,12 @@ function Home(props) {
                 </div>
 
                 <h1 className="text-center m-4">Check For Your Date</h1>
-                <div className="row bg-dark mt-3 mb-3">
+                <div className="row mt-3 mb-3">
                     <div className="col-md-6">
-                        <h3 className="text-center text-light mt-md-3 mb-md-3 pt-3">
+                        <h3 className="text-center mt-md-3 mb-md-3 pt-3">
                             Are We available?
                         </h3>
-                        <h4 className="text-center text-light mt-md-3 mb-md-3">
+                        <h4 className="text-center mt-md-3 mb-md-3">
                             Click on a date to see the services we have available.
                         </h4>
                     </div>
