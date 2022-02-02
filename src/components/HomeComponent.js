@@ -5,7 +5,7 @@ import DJCarousel from './CarouselComponent';
 import PanteraCalendar from './CalendarComponent';
 
 
-function Home(props) {
+function Home() {
     return (
         <React.Fragment>
             <div className="container">

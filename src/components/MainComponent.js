@@ -12,18 +12,28 @@ import GraphicDesign from './GraphicDesignComponent';
 import Video from './VideographComponent';
 import Photo from './PhotoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import { ITEMS } from '../shared/items';
+import ShopInfo from './ShopInfoComponent';
 
 class Main extends Component {
-    constructor(props) {
+    constructor(props){
         super(props);
         this.state = {
-
+            items: ITEMS,
         };
     }
+
     render() {
         const HomePage = () => {
             return (
                 <Home />
+            );
+        }
+
+
+        const ItemWithId = ({match}) => {
+            return(
+                <ShopInfo item={this.state.items.filter(item => item.id === +match.params.itemId)[0]} />
             );
         }
 
@@ -35,12 +45,14 @@ class Main extends Component {
                     <Route path='/contact' component= {Contact} />
                     <Route path='/reviews' component= {Reviews} />
                     <Route path='/about' component= {About} />
-                    <Route path='/shop' component= {Shop} />
+                    <Route exact path='/shop' render={() => <Shop items={this.state.items} />} />
+                    <Route path='/shop/:itemId' component={ItemWithId} />
                     <Route path='/soundLight' component= {SoundLight} />
                     <Route path='/dj' component= {Dj} />
                     <Route path='/graphicDesign' component= {GraphicDesign} />
                     <Route path='/video' component= {Video} />
                     <Route path='/photo' component= {Photo} />
+                    
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
