@@ -3,7 +3,6 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Contact from './ContactComponent';
-import Reviews from './ReviewsComponent';
 import About from './AboutComponent';
 import Shop from './ShopComponent';
 import SoundLight from './SoundandLighting';
@@ -43,7 +42,6 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component= {HomePage} />
                     <Route path='/contact' component= {Contact} />
-                    <Route path='/reviews' component= {Reviews} />
                     <Route path='/about' component= {About} />
                     <Route exact path='/shop' render={() => <Shop items={this.state.items} />} />
                     <Route path='/shop/:itemId' component={ItemWithId} />

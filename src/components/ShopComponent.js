@@ -1,16 +1,15 @@
 import React from 'react';
-import {Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import {Card, CardImg, CardTitle, CardText } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function RenderShopItem({item}){
     return(
-        <Card>
+        <Card className="border-0">
             <Link to={`/shop/${item.id}`}>
                 <CardImg width="100%" src={item.imageDefault} alt={item.name} />
-                <CardImgOverlay>
-                    <CardTitle>{item.name}</CardTitle>
-                </CardImgOverlay>
+                <CardTitle className="text-dark text-center">{item.name} - ${item.price}</CardTitle>
             </Link>
+            <CardText className="text-center">Quick Add to Cart</CardText>
         </Card>
     );
 }

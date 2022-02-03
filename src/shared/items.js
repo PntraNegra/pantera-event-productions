@@ -38,5 +38,13 @@ export const ITEMS = [
         imageSecondary: "/img/jacket2.jpg",
         price: 45,
         description: "Made for extreme weather this jacket will keep you protected through all the elements."
+    },
+    {
+        id: 5,
+        name: "Jacket",
+        imageDefault: "/img/jacket1.jpg",
+        imageSecondary: "/img/jacket2.jpg",
+        price: 45,
+        description: "Made for extreme weather this jacket will keep you protected through all the elements."
     }
 ];

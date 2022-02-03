@@ -39,11 +39,6 @@ class Header extends Component{
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/reviews">
-                                        <i className="fa fa-star fa-lg" /> Reviews
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
                                     <NavLink className="nav-link" to="/contact">
                                         <i className="fa fa-address-card fa-lg" /> Contact
                                     </NavLink>
@@ -51,6 +46,11 @@ class Header extends Component{
                                 <NavItem>
                                     <NavLink className="nav-link" to="/shop">
                                         <i className="fa fa-shopping-cart fa-lg" /> Shop
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/#">
+                                        <i className="circle">0</i> Checkout
                                     </NavLink>
                                 </NavItem>
                                 <UncontrolledDropdown nav inNavbar>
