@@ -22,33 +22,38 @@ const HulkHogan = () => {
 function About() {
     
     return(
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <h1 className="text-center mb-3">Meet the Pantera Team</h1>
+        <React.Fragment>
+            <div className="container-fluid black mb-3">
+                <div className="row">
+                    <div className="col">
+                        <h1 className="text-center">Meet the Pantera Team</h1>
+                    </div>
                 </div>
             </div>
-            
-            <div>
-                <HulkHogan />
+            <div className="container">
+                
+                
+                <div>
+                    <HulkHogan />
+                </div>
+                <hr />
+                <div>
+                    <HulkHogan />
+                </div>
+                <hr />
+                <div>
+                    <HulkHogan />
+                </div>
+                <hr />
+                <div>
+                    <HulkHogan />
+                </div>
+                <hr />
+                <div>
+                    <HulkHogan />
+                </div>
             </div>
-            <hr />
-            <div>
-                <HulkHogan />
-            </div>
-            <hr />
-            <div>
-                <HulkHogan />
-            </div>
-            <hr />
-            <div>
-                <HulkHogan />
-            </div>
-            <hr />
-            <div>
-                <HulkHogan />
-            </div>
-        </div>
+        </React.Fragment>
     );
     
 }

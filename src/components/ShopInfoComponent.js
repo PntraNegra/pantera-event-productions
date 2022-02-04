@@ -71,7 +71,7 @@ function RenderInformation({item}) {
                 </div>
                 <div className="form-group row">
                     <div className="col">
-                        <button type="submit" className="btn btn-primary">Add to Cart -</button>
+                        <button type="submit" className="btn btn-primary">Add to Cart - 0</button>
                     </div>
                 </div>
             </form>

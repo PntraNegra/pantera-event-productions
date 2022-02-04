@@ -13,6 +13,7 @@ import Photo from './PhotoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { ITEMS } from '../shared/items';
 import ShopInfo from './ShopInfoComponent';
+import Checkout from './Checkout';
 
 class Main extends Component {
     constructor(props){
@@ -32,7 +33,9 @@ class Main extends Component {
 
         const ItemWithId = ({match}) => {
             return(
+
                 <ShopInfo item={this.state.items.filter(item => item.id === +match.params.itemId)[0]} />
+                
             );
         }
 
@@ -50,7 +53,7 @@ class Main extends Component {
                     <Route path='/graphicDesign' component= {GraphicDesign} />
                     <Route path='/video' component= {Video} />
                     <Route path='/photo' component= {Photo} />
-                    
+                    <Route path='/checkout' render={() => <Checkout items={this.state.items} />} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

@@ -8,7 +8,7 @@ import PanteraCalendar from './CalendarComponent';
 function Home() {
     return (
         <React.Fragment>
-            <div className="container">
+            <div className="container-fluid black mb-3">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1>Pantera Event Productions</h1>
@@ -17,6 +17,9 @@ function Home() {
                         <h3>Professional Services for Gatherings, Parties and More</h3>
                     </div>
                 </div>
+            </div>
+            <div className="container">
+                
 
                 <div className="row">
                     <div className="col-sm-6 mt-1 mb-1">

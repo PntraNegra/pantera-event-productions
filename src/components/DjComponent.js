@@ -1,13 +1,16 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 
 
 function Dj() {
     
     return(
-        <Container fluid className="fluid">
-            <img src="/img/djGear.jpg" className="img-fluid" alt="DJ gear" />
-        </Container>
+        <div className="container-fluid black mb-3">
+            <div className="row">
+                <div className="col">
+                    <h1 className="text-center">Professional DJ Services</h1>
+                </div>
+            </div>
+        </div>
     );
 }
 

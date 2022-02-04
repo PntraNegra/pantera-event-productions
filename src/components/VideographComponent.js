@@ -1,8 +1,14 @@
 import React from 'react';
 
-function Video(props) {
+function Video() {
     return(
-        <h1>Videography</h1>
+        <div className="container-fluid black mb-3">
+            <div className="row">
+                <div className="col">
+                    <h1 className="text-center">Videography</h1>
+                </div>
+            </div>
+        </div>
     );
 }
 

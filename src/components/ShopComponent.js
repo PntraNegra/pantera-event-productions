@@ -25,11 +25,20 @@ function Shop(props) {
     })
 
     return (
-        <div className="container">
-            <div className="row">
-                {shop}
+        <React.Fragment>
+            <div className="container-fluid black mb-3">
+                <div className="row">
+                    <div className="col">
+                        <h1 className="text-center">Come grab some gear</h1>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div className="container">
+                <div className="row">
+                    {shop}
+                </div>
+            </div>
+        </React.Fragment>
     );
 }
 
