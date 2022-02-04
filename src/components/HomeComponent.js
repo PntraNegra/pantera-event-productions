@@ -24,7 +24,7 @@ function Home() {
                         <Card>
                             <CardImg
                             alt="DJ Services Picture"
-                            src="/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg"
+                            src="/img/djGear.jpg"
                             top
                             width="100%"
                             />
@@ -125,20 +125,20 @@ function Home() {
                         </a>
                     </div>
                     <div className="col-sm-6 mt-1 mb-1">
-                        <a href="/reviews" className="text-dark">
+                        <a href="/shop" className="text-dark">
                             <Card>
                                 <CardImg
-                                alt="Reviews services image"
-                                src="/img/reviews.jpg"
+                                alt="Shop Image"
+                                src="/img/shopping.jpg"
                                 top
                                 width="100%"
                                 />
                                 <CardBody>
                                     <CardTitle tag="h5">
-                                        Reviews
+                                        Shop
                                     </CardTitle>
                                     <CardText>
-                                        See what others are saying about the Pantera Event Production experience!
+                                        Dress like the Pantera team and grab some exclusive Pantera gear!
                                     </CardText>
                                 </CardBody>
                             </Card>

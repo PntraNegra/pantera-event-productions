@@ -1,8 +1,10 @@
 import React from 'react';
 
-function Dj(props) {
+function Dj() {
     return(
-        <h1>DJ</h1>
+        <div className="container-fluid">
+            <img className="img-fluid" src="/img/djGear.jpg" alt="dj gear" />
+        </div>
     );
 }
 

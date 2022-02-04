@@ -14,7 +14,7 @@ function DJCarousel() {
 '/img/alfonso-scarpa-2LGx4cQAMks-unsplash.jpg',
         },
         {src: 
-'/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg',
+'/img/djGear.jpg',
         },
         {src:
 '/img/john-fornander-yvs7ZH3AZNM-unsplash.jpg'
@@ -26,7 +26,7 @@ function DJCarousel() {
 '/img/ryoji-hayasaka-0UZj73PQVew-unsplash.jpg',
         },
         {src:
-'/img/gabriel-barletta-OuLVg5ZKphI-unsplash.jpg'
+'/img/djGear.jpg'
         }
     ];
 
